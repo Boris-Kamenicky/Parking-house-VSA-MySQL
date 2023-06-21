@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: sk.stuba.fei.uim.vsa.pr1a.bonus.CarParkFloorEmbeddedIdTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 4.343 s <<< FAILURE! - in sk.stuba.fei.uim.vsa.pr1a.bonus.CarParkFloorEmbeddedIdTest
+BONUSE03_getAllCarParkFloorsEmbedded  Time elapsed: 0.293 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: not <null>
+	at sk.stuba.fei.uim.vsa.pr1a.bonus.CarParkFloorEmbeddedIdTest.BONUSE03_getAllCarParkFloorsEmbedded(CarParkFloorEmbeddedIdTest.java:277)
+
+BONUSE02_deleteCarParkFloorEmbeddedTest  Time elapsed: 0.236 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+	at sk.stuba.fei.uim.vsa.pr1a.bonus.CarParkFloorEmbeddedIdTest.BONUSE02_deleteCarParkFloorEmbeddedTest(CarParkFloorEmbeddedIdTest.java:205)
+
+BONUSE01_createAndGetCarParkFloorTestEmbedded  Time elapsed: 0.209 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: not <null>
+	at sk.stuba.fei.uim.vsa.pr1a.bonus.CarParkFloorEmbeddedIdTest.BONUSE01_createAndGetCarParkFloorTestEmbedded(CarParkFloorEmbeddedIdTest.java:96)
+
+-------------------------------------------------------------------------------
+ 
+-------------------------------------------------------------------------------
+Test set: sk.stuba.fei.uim.vsa.pr1a.bonus.EntityUpdateTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.176 s - in sk.stuba.fei.uim.vsa.pr1a.bonus.EntityUpdateTest
+-------------------------------------------------------------------------------
+ 

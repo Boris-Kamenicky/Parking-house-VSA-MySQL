@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="sk.stuba.fei.uim.vsa.pr1a.bonus.CarParkFloorEmbeddedIdTest" time="4.343" tests="3" errors="0" skipped="0" failures="3">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1250"/>
+    <property name="java.class.path" value="C:\Users\mlado\Documents\Projects\School\VSA\LS 21-22\opravovanie\zadanie1\skupiny\skupinaA\Boris-Kamenicky\target\test-classes;C:\Users\mlado\Documents\Projects\School\VSA\LS 21-22\opravovanie\zadanie1\skupiny\skupinaA\Boris-Kamenicky\target\classes;C:\Users\mlado\.m2\repository\mysql\mysql-connector-java\5.1.49\mysql-connector-java-5.1.49.jar;C:\Users\mlado\.m2\repository\org\apache\derby\derbyclient\10.14.2.0\derbyclient-10.14.2.0.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.core\2.7.10\org.eclipse.persistence.core-2.7.10.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.asm\9.2.0\org.eclipse.persistence.asm-9.2.0.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.antlr\2.7.10\org.eclipse.persistence.antlr-2.7.10.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.moxy\2.7.10\org.eclipse.persistence.moxy-2.7.10.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.jpa\2.7.10\org.eclipse.persistence.jpa-2.7.10.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\jakarta.persistence\2.2.3\jakarta.persistence-2.2.3.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.jpa.jpql\2.7.10\org.eclipse.persistence.jpa.jpql-2.7.10.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.jpa.modelgen.processor\2.7.10\org.eclipse.persistence.jpa.modelgen.processor-2.7.10.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\javax.persistence\2.2.1\javax.persistence-2.2.1.jar;C:\Users\mlado\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\mlado\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\mlado\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\mlado\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\mlado\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\mlado\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\mlado\.m2\repository\org\reflections\reflections\0.10.2\reflections-0.10.2.jar;C:\Users\mlado\.m2\repository\org\javassist\javassist\3.28.0-GA\javassist-3.28.0-GA.jar;C:\Users\mlado\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\mlado\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Prague"/>
+    <property name="user.country.format" value="SK"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\mlado\AppData\Local\Temp\surefire3799501242644481258\surefirebooter8500945986628447341.jar C:\Users\mlado\AppData\Local\Temp\surefire3799501242644481258 2022-05-22T01-43-05_049-jvmRun1 surefire4643295029884126121tmp surefire_03143203440267686569tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\mlado\Documents\Projects\School\VSA\LS 21-22\opravovanie\zadanie1\skupiny\skupinaA\Boris-Kamenicky\target\test-classes;C:\Users\mlado\Documents\Projects\School\VSA\LS 21-22\opravovanie\zadanie1\skupiny\skupinaA\Boris-Kamenicky\target\classes;C:\Users\mlado\.m2\repository\mysql\mysql-connector-java\5.1.49\mysql-connector-java-5.1.49.jar;C:\Users\mlado\.m2\repository\org\apache\derby\derbyclient\10.14.2.0\derbyclient-10.14.2.0.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.core\2.7.10\org.eclipse.persistence.core-2.7.10.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.asm\9.2.0\org.eclipse.persistence.asm-9.2.0.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.antlr\2.7.10\org.eclipse.persistence.antlr-2.7.10.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.moxy\2.7.10\org.eclipse.persistence.moxy-2.7.10.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.jpa\2.7.10\org.eclipse.persistence.jpa-2.7.10.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\jakarta.persistence\2.2.3\jakarta.persistence-2.2.3.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.jpa.jpql\2.7.10\org.eclipse.persistence.jpa.jpql-2.7.10.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.jpa.modelgen.processor\2.7.10\org.eclipse.persistence.jpa.modelgen.processor-2.7.10.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\javax.persistence\2.2.1\javax.persistence-2.2.1.jar;C:\Users\mlado\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\mlado\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\mlado\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\mlado\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\mlado\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\mlado\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\mlado\.m2\repository\org\reflections\reflections\0.10.2\reflections-0.10.2.jar;C:\Users\mlado\.m2\repository\org\javassist\javassist\3.28.0-GA\javassist-3.28.0-GA.jar;C:\Users\mlado\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\mlado\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\mlado"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_221\jre"/>
+    <property name="basedir" value="C:\Users\mlado\Documents\Projects\School\VSA\LS 21-22\opravovanie\zadanie1\skupiny\skupinaA\Boris-Kamenicky"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\mlado\AppData\Local\Temp\surefire3799501242644481258\surefirebooter8500945986628447341.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_221\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_221-b11"/>
+    <property name="user.name" value="mlado"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1250"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\mlado\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\mlado\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_221"/>
+    <property name="user.dir" value="C:\Users\mlado\Documents\Projects\School\VSA\LS 21-22\opravovanie\zadanie1\skupiny\skupinaA\Boris-Kamenicky"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="user.language.format" value="sk"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\PROGRA~2\Groovy\GROOVY~1.7\bin;C:\Program Files\MiKTeX\miktex\bin\x64\;C:\Program Files\Java\jdk-11\bin;C:\Program Files\Go\bin;C:\Program Files\Helm;C:\Program Files\Amazon\AWSCLIV2\;C:\Users\mlado\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\213.5744.223\plugins\maven\lib\maven3\bin;C:\Program Files (x86)\AOMEI\AOMEI Backupper\6.8.0;C:\Program Files (x86)\GnuPG\bin;C:\Program Files (x86)\Gpg4win\bin_64;C:\Program Files (x86)\Gpg4win\bin;C:\Users\mlado\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\213.6777.52\plugins\maven\lib\maven3\bin;C:\Program Files\dotnet\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\nodejs\;C:\Program Files (x86)\apache-maven-3.8.5\bin;C:\Users\mlado\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\mlado\AppData\Local\Programs\Python\Python39\;C:\Users\mlado\AppData\Local\Microsoft\WindowsApps;C:\Users\mlado\.deno\bin;C:\Users\mlado\go\bin;C:\Users\mlado\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\GitHub CLI\;C:\Users\mlado\AppData\Local\Microsoft\WindowsApps;C:\Users\mlado\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.221-b11"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="BONUSE03_getAllCarParkFloorsEmbedded" classname="sk.stuba.fei.uim.vsa.pr1a.bonus.CarParkFloorEmbeddedIdTest" time="0.293">
+    <failure message="expected: not &lt;null&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: not <null>
+	at sk.stuba.fei.uim.vsa.pr1a.bonus.CarParkFloorEmbeddedIdTest.BONUSE03_getAllCarParkFloorsEmbedded(CarParkFloorEmbeddedIdTest.java:277)
+]]></failure>
+    <system-out><![CDATA[[EL Info]: 2022-05-22 01:43:07.333--ServerSession(333392524)--EclipseLink, version: Eclipse Persistence Services - 2.7.10.v20211216-fe64cd39c3
+[EL Fine]: sql: 2022-05-22 01:43:08.128--ServerSession(333392524)--Connection(273077527)--ALTER TABLE CAR_PARK_FLOOR DROP FOREIGN KEY FK_CAR_PARK_FLOOR_CARPARK_ID
+[EL Fine]: sql: 2022-05-22 01:43:08.147--ServerSession(333392524)--Connection(273077527)--ALTER TABLE CAR_PARK_FLOOR DROP KEY UNQ_CAR_PARK_FLOOR_0
+[EL Fine]: sql: 2022-05-22 01:43:08.159--ServerSession(333392524)--Connection(273077527)--ALTER TABLE PARKING_SPOT DROP FOREIGN KEY FK_PARKING_SPOT_CARPARKFLOOR_ID
+[EL Fine]: sql: 2022-05-22 01:43:08.167--ServerSession(333392524)--Connection(273077527)--ALTER TABLE PARKING_SPOT DROP FOREIGN KEY FK_PARKING_SPOT_CARPARK_ID
+[EL Fine]: sql: 2022-05-22 01:43:08.174--ServerSession(333392524)--Connection(273077527)--ALTER TABLE PARKING_SPOT DROP FOREIGN KEY FK_PARKING_SPOT_CAR_ID
+[EL Fine]: sql: 2022-05-22 01:43:08.182--ServerSession(333392524)--Connection(273077527)--ALTER TABLE PARKING_SPOT DROP KEY UNQ_PARKING_SPOT_0
+[EL Fine]: sql: 2022-05-22 01:43:08.195--ServerSession(333392524)--Connection(273077527)--ALTER TABLE CAR DROP FOREIGN KEY FK_CAR_USER_ID
+[EL Fine]: sql: 2022-05-22 01:43:08.202--ServerSession(333392524)--Connection(273077527)--ALTER TABLE USER DROP KEY UNQ_USER_0
+[EL Fine]: sql: 2022-05-22 01:43:08.214--ServerSession(333392524)--Connection(273077527)--ALTER TABLE RESERVATION DROP FOREIGN KEY FK_RESERVATION_DISCOUNTCOUPON_ID
+[EL Fine]: sql: 2022-05-22 01:43:08.222--ServerSession(333392524)--Connection(273077527)--ALTER TABLE RESERVATION DROP FOREIGN KEY FK_RESERVATION_CAR_ID
+[EL Fine]: sql: 2022-05-22 01:43:08.23--ServerSession(333392524)--Connection(273077527)--ALTER TABLE RESERVATION DROP FOREIGN KEY FK_RESERVATION_PARKINGSPOT_ID
+[EL Fine]: sql: 2022-05-22 01:43:08.237--ServerSession(333392524)--Connection(273077527)--ALTER TABLE DISCOUNT_COUPON DROP FOREIGN KEY FK_DISCOUNT_COUPON_USER_ID
+[EL Fine]: sql: 2022-05-22 01:43:08.244--ServerSession(333392524)--Connection(273077527)--ALTER TABLE CAR_PARK_PARKING_SPOT DROP FOREIGN KEY FK_CAR_PARK_PARKING_SPOT_parkingSpots_ID
+[EL Fine]: sql: 2022-05-22 01:43:08.251--ServerSession(333392524)--Connection(273077527)--ALTER TABLE CAR_PARK_PARKING_SPOT DROP FOREIGN KEY FK_CAR_PARK_PARKING_SPOT_CarPark_ID
+[EL Fine]: sql: 2022-05-22 01:43:08.258--ServerSession(333392524)--Connection(273077527)--ALTER TABLE CAR_PARK_FLOOR_PARKING_SPOT DROP FOREIGN KEY FK_CAR_PARK_FLOOR_PARKING_SPOT_CarParkFloor_ID
+[EL Fine]: sql: 2022-05-22 01:43:08.265--ServerSession(333392524)--Connection(273077527)--ALTER TABLE CAR_PARK_FLOOR_PARKING_SPOT DROP FOREIGN KEY FK_CAR_PARK_FLOOR_PARKING_SPOT_parkingSpots_ID
+[EL Fine]: sql: 2022-05-22 01:43:08.273--ServerSession(333392524)--Connection(273077527)--ALTER TABLE USER_CAR DROP FOREIGN KEY FK_USER_CAR_User_ID
+[EL Fine]: sql: 2022-05-22 01:43:08.28--ServerSession(333392524)--Connection(273077527)--ALTER TABLE USER_CAR DROP FOREIGN KEY FK_USER_CAR_cars_ID
+[EL Fine]: sql: 2022-05-22 01:43:08.288--ServerSession(333392524)--Connection(273077527)--ALTER TABLE USER_DISCOUNT_COUPON DROP FOREIGN KEY FK_USER_DISCOUNT_COUPON_User_ID
+[EL Fine]: sql: 2022-05-22 01:43:08.295--ServerSession(333392524)--Connection(273077527)--ALTER TABLE USER_DISCOUNT_COUPON DROP FOREIGN KEY FK_USER_DISCOUNT_COUPON_discountCoupons_ID
+[EL Fine]: sql: 2022-05-22 01:43:08.303--ServerSession(333392524)--Connection(273077527)--DROP TABLE CAR_PARK
+[EL Fine]: sql: 2022-05-22 01:43:08.317--ServerSession(333392524)--Connection(273077527)--DROP TABLE CAR_PARK_FLOOR
+[EL Fine]: sql: 2022-05-22 01:43:08.331--ServerSession(333392524)--Connection(273077527)--DROP TABLE PARKING_SPOT
+[EL Fine]: sql: 2022-05-22 01:43:08.344--ServerSession(333392524)--Connection(273077527)--DROP TABLE CAR
+[EL Fine]: sql: 2022-05-22 01:43:08.357--ServerSession(333392524)--Connection(273077527)--DROP TABLE USER
+[EL Fine]: sql: 2022-05-22 01:43:08.37--ServerSession(333392524)--Connection(273077527)--DROP TABLE RESERVATION
+[EL Fine]: sql: 2022-05-22 01:43:08.385--ServerSession(333392524)--Connection(273077527)--DROP TABLE DISCOUNT_COUPON
+[EL Fine]: sql: 2022-05-22 01:43:08.401--ServerSession(333392524)--Connection(273077527)--DROP TABLE CAR_PARK_PARKING_SPOT
+[EL Fine]: sql: 2022-05-22 01:43:08.416--ServerSession(333392524)--Connection(273077527)--DROP TABLE CAR_PARK_FLOOR_PARKING_SPOT
+[EL Fine]: sql: 2022-05-22 01:43:08.429--ServerSession(333392524)--Connection(273077527)--DROP TABLE USER_CAR
+[EL Fine]: sql: 2022-05-22 01:43:08.442--ServerSession(333392524)--Connection(273077527)--DROP TABLE USER_DISCOUNT_COUPON
+[EL Fine]: sql: 2022-05-22 01:43:08.458--ServerSession(333392524)--Connection(273077527)--DELETE FROM SEQUENCE WHERE SEQ_NAME = 'SEQ_GEN'
+[EL Fine]: sql: 2022-05-22 01:43:08.463--ServerSession(333392524)--Connection(273077527)--CREATE TABLE CAR_PARK (ID BIGINT NOT NULL, ADDRESS VARCHAR(255) NOT NULL UNIQUE, NAME VARCHAR(255) NOT NULL UNIQUE, PRICEPERHOUR INTEGER NOT NULL, PRIMARY KEY (ID))
+[EL Fine]: sql: 2022-05-22 01:43:08.493--ServerSession(333392524)--Connection(273077527)--CREATE TABLE CAR_PARK_FLOOR (ID BIGINT NOT NULL, CARPARK_ID BIGINT NOT NULL, FLOORIDENTIFIER VARCHAR(255) NOT NULL, PRIMARY KEY (ID))
+[EL Fine]: sql: 2022-05-22 01:43:08.519--ServerSession(333392524)--Connection(273077527)--CREATE TABLE PARKING_SPOT (ID BIGINT NOT NULL, FLOORIDENTIFIER VARCHAR(255) NOT NULL, SPOTIDENTIFIER VARCHAR(255) NOT NULL, CARPARK_ID BIGINT, CARPARKFLOOR_ID BIGINT, CAR_ID BIGINT UNIQUE, PRIMARY KEY (ID))
+[EL Fine]: sql: 2022-05-22 01:43:08.542--ServerSession(333392524)--Connection(273077527)--CREATE TABLE CAR (ID BIGINT NOT NULL, BRAND VARCHAR(255) NOT NULL, COLOUR VARCHAR(255) NOT NULL, MODEL VARCHAR(255) NOT NULL, VEHICLEREGISTRATIONPLATE VARCHAR(255) NOT NULL UNIQUE, USER_ID BIGINT, PRIMARY KEY (ID))
+[EL Fine]: sql: 2022-05-22 01:43:08.567--ServerSession(333392524)--Connection(273077527)--CREATE TABLE USER (ID BIGINT NOT NULL, EMAIL VARCHAR(255) NOT NULL UNIQUE, FIRSTNAME VARCHAR(255) NOT NULL, LASTNAME VARCHAR(255) NOT NULL, PRIMARY KEY (ID))
+[EL Fine]: sql: 2022-05-22 01:43:08.591--ServerSession(333392524)--Connection(273077527)--CREATE TABLE RESERVATION (ID BIGINT NOT NULL, FINALPRICE DOUBLE, FINISHDATE DATETIME, STARTDATE DATETIME NOT NULL, CAR_ID BIGINT, DISCOUNTCOUPON_ID BIGINT, PARKINGSPOT_ID BIGINT, PRIMARY KEY (ID))
+[EL Fine]: sql: 2022-05-22 01:43:08.612--ServerSession(333392524)--Connection(273077527)--CREATE TABLE DISCOUNT_COUPON (ID BIGINT NOT NULL, DISCOUNT INTEGER NOT NULL, NAME VARCHAR(255) NOT NULL, VALIDITY TINYINT(1) default 0, USER_ID BIGINT, PRIMARY KEY (ID))
+[EL Fine]: sql: 2022-05-22 01:43:08.635--ServerSession(333392524)--Connection(273077527)--CREATE TABLE CAR_PARK_PARKING_SPOT (CarPark_ID BIGINT NOT NULL, parkingSpots_ID BIGINT NOT NULL, PRIMARY KEY (CarPark_ID, parkingSpots_ID))
+[EL Fine]: sql: 2022-05-22 01:43:08.661--ServerSession(333392524)--Connection(273077527)--CREATE TABLE CAR_PARK_FLOOR_PARKING_SPOT (CarParkFloor_ID BIGINT NOT NULL, parkingSpots_ID BIGINT NOT NULL, PRIMARY KEY (CarParkFloor_ID, parkingSpots_ID))
+[EL Fine]: sql: 2022-05-22 01:43:08.684--ServerSession(333392524)--Connection(273077527)--CREATE TABLE USER_CAR (User_ID BIGINT NOT NULL, cars_ID BIGINT NOT NULL, PRIMARY KEY (User_ID, cars_ID))
+[EL Fine]: sql: 2022-05-22 01:43:08.707--ServerSession(333392524)--Connection(273077527)--CREATE TABLE USER_DISCOUNT_COUPON (User_ID BIGINT NOT NULL, discountCoupons_ID BIGINT NOT NULL, PRIMARY KEY (User_ID, discountCoupons_ID))
+[EL Fine]: sql: 2022-05-22 01:43:08.729--ServerSession(333392524)--Connection(273077527)--ALTER TABLE CAR_PARK_FLOOR ADD CONSTRAINT UNQ_CAR_PARK_FLOOR_0 UNIQUE (CARPARK_ID, FLOORIDENTIFIER)
+[EL Fine]: sql: 2022-05-22 01:43:08.749--ServerSession(333392524)--Connection(273077527)--ALTER TABLE PARKING_SPOT ADD CONSTRAINT UNQ_PARKING_SPOT_0 UNIQUE (CARPARK_ID, SPOTIDENTIFIER)
+[EL Fine]: sql: 2022-05-22 01:43:08.769--ServerSession(333392524)--Connection(273077527)--ALTER TABLE USER ADD CONSTRAINT UNQ_USER_0 UNIQUE (FIRSTNAME, LASTNAME)
+[EL Fine]: sql: 2022-05-22 01:43:08.788--ServerSession(333392524)--Connection(273077527)--ALTER TABLE CAR_PARK_FLOOR ADD CONSTRAINT FK_CAR_PARK_FLOOR_CARPARK_ID FOREIGN KEY (CARPARK_ID) REFERENCES CAR_PARK (ID)
+[EL Fine]: sql: 2022-05-22 01:43:08.844--ServerSession(333392524)--Connection(273077527)--ALTER TABLE PARKING_SPOT ADD CONSTRAINT FK_PARKING_SPOT_CARPARKFLOOR_ID FOREIGN KEY (CARPARKFLOOR_ID) REFERENCES CAR_PARK_FLOOR (ID)
+[EL Fine]: sql: 2022-05-22 01:43:08.912--ServerSession(333392524)--Connection(273077527)--ALTER TABLE PARKING_SPOT ADD CONSTRAINT FK_PARKING_SPOT_CARPARK_ID FOREIGN KEY (CARPARK_ID) REFERENCES CAR_PARK (ID)
+[EL Fine]: sql: 2022-05-22 01:43:08.976--ServerSession(333392524)--Connection(273077527)--ALTER TABLE PARKING_SPOT ADD CONSTRAINT FK_PARKING_SPOT_CAR_ID FOREIGN KEY (CAR_ID) REFERENCES CAR (ID)
+[EL Fine]: sql: 2022-05-22 01:43:09.049--ServerSession(333392524)--Connection(273077527)--ALTER TABLE CAR ADD CONSTRAINT FK_CAR_USER_ID FOREIGN KEY (USER_ID) REFERENCES USER (ID)
+[EL Fine]: sql: 2022-05-22 01:43:09.111--ServerSession(333392524)--Connection(273077527)--ALTER TABLE RESERVATION ADD CONSTRAINT FK_RESERVATION_DISCOUNTCOUPON_ID FOREIGN KEY (DISCOUNTCOUPON_ID) REFERENCES DISCOUNT_COUPON (ID)
+[EL Fine]: sql: 2022-05-22 01:43:09.181--ServerSession(333392524)--Connection(273077527)--ALTER TABLE RESERVATION ADD CONSTRAINT FK_RESERVATION_CAR_ID FOREIGN KEY (CAR_ID) REFERENCES CAR (ID)
+[EL Fine]: sql: 2022-05-22 01:43:09.244--ServerSession(333392524)--Connection(273077527)--ALTER TABLE RESERVATION ADD CONSTRAINT FK_RESERVATION_PARKINGSPOT_ID FOREIGN KEY (PARKINGSPOT_ID) REFERENCES PARKING_SPOT (ID)
+[EL Fine]: sql: 2022-05-22 01:43:09.31--ServerSession(333392524)--Connection(273077527)--ALTER TABLE DISCOUNT_COUPON ADD CONSTRAINT FK_DISCOUNT_COUPON_USER_ID FOREIGN KEY (USER_ID) REFERENCES USER (ID)
+[EL Fine]: sql: 2022-05-22 01:43:09.368--ServerSession(333392524)--Connection(273077527)--ALTER TABLE CAR_PARK_PARKING_SPOT ADD CONSTRAINT FK_CAR_PARK_PARKING_SPOT_parkingSpots_ID FOREIGN KEY (parkingSpots_ID) REFERENCES PARKING_SPOT (ID)
+[EL Fine]: sql: 2022-05-22 01:43:09.422--ServerSession(333392524)--Connection(273077527)--ALTER TABLE CAR_PARK_PARKING_SPOT ADD CONSTRAINT FK_CAR_PARK_PARKING_SPOT_CarPark_ID FOREIGN KEY (CarPark_ID) REFERENCES CAR_PARK (ID)
+[EL Fine]: sql: 2022-05-22 01:43:09.477--ServerSession(333392524)--Connection(273077527)--ALTER TABLE CAR_PARK_FLOOR_PARKING_SPOT ADD CONSTRAINT FK_CAR_PARK_FLOOR_PARKING_SPOT_CarParkFloor_ID FOREIGN KEY (CarParkFloor_ID) REFERENCES CAR_PARK_FLOOR (ID)
+[EL Fine]: sql: 2022-05-22 01:43:09.535--ServerSession(333392524)--Connection(273077527)--ALTER TABLE CAR_PARK_FLOOR_PARKING_SPOT ADD CONSTRAINT FK_CAR_PARK_FLOOR_PARKING_SPOT_parkingSpots_ID FOREIGN KEY (parkingSpots_ID) REFERENCES PARKING_SPOT (ID)
+[EL Fine]: sql: 2022-05-22 01:43:09.6--ServerSession(333392524)--Connection(273077527)--ALTER TABLE USER_CAR ADD CONSTRAINT FK_USER_CAR_User_ID FOREIGN KEY (User_ID) REFERENCES USER (ID)
+[EL Fine]: sql: 2022-05-22 01:43:09.655--ServerSession(333392524)--Connection(273077527)--ALTER TABLE USER_CAR ADD CONSTRAINT FK_USER_CAR_cars_ID FOREIGN KEY (cars_ID) REFERENCES CAR (ID)
+[EL Fine]: sql: 2022-05-22 01:43:09.714--ServerSession(333392524)--Connection(273077527)--ALTER TABLE USER_DISCOUNT_COUPON ADD CONSTRAINT FK_USER_DISCOUNT_COUPON_User_ID FOREIGN KEY (User_ID) REFERENCES USER (ID)
+[EL Fine]: sql: 2022-05-22 01:43:09.772--ServerSession(333392524)--Connection(273077527)--ALTER TABLE USER_DISCOUNT_COUPON ADD CONSTRAINT FK_USER_DISCOUNT_COUPON_discountCoupons_ID FOREIGN KEY (discountCoupons_ID) REFERENCES DISCOUNT_COUPON (ID)
+[EL Fine]: sql: 2022-05-22 01:43:09.826--ServerSession(333392524)--Connection(273077527)--SELECT * FROM SEQUENCE WHERE SEQ_NAME = 'SEQ_GEN'
+[EL Fine]: sql: 2022-05-22 01:43:09.827--ServerSession(333392524)--Connection(273077527)--INSERT INTO SEQUENCE(SEQ_NAME, SEQ_COUNT) values ('SEQ_GEN', 0)
+car park class: sk.stuba.fei.uim.vsa.pr1a.CarParkService
+[EL Fine]: sql: 2022-05-22 01:43:10.095--ClientSession(1059524106)--Connection(273077527)--UPDATE SEQUENCE SET SEQ_COUNT = SEQ_COUNT + ? WHERE SEQ_NAME = ?
+	bind => [50, SEQ_GEN]
+[EL Fine]: sql: 2022-05-22 01:43:10.096--ClientSession(1059524106)--Connection(273077527)--SELECT SEQ_COUNT FROM SEQUENCE WHERE SEQ_NAME = ?
+	bind => [SEQ_GEN]
+[EL Fine]: sql: 2022-05-22 01:43:10.108--ClientSession(1059524106)--Connection(273077527)--INSERT INTO CAR_PARK (ID, ADDRESS, NAME, PRICEPERHOUR) VALUES (?, ?, ?, ?)
+	bind => [1, testtest, test5, 12]
+[EL Fine]: sql: 2022-05-22 01:43:10.121--ClientSession(792782299)--Connection(273077527)--INSERT INTO CAR_PARK_FLOOR (ID, CARPARK_ID, FLOORIDENTIFIER) VALUES (?, ?, ?)
+	bind => [2, 1, Floor1]
+[EL Fine]: sql: 2022-05-22 01:43:10.127--ClientSession(317562294)--Connection(273077527)--INSERT INTO CAR_PARK_FLOOR (ID, CARPARK_ID, FLOORIDENTIFIER) VALUES (?, ?, ?)
+	bind => [3, 1, Floor2]
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Sun May 22 01:43:07 CEST 2022 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+Sun May 22 01:43:09 CEST 2022 WARN: Establishing SSL connection without server's identity verification is not recommended. According to MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be established by default if explicit option isn't set. For compliance with existing applications not using SSL the verifyServerCertificate property is set to 'false'. You need either to explicitly disable SSL by setting useSSL=false, or set useSSL=true and provide truststore for server certificate verification.
+]]></system-err>
+  </testcase>
+  <testcase name="BONUSE02_deleteCarParkFloorEmbeddedTest" classname="sk.stuba.fei.uim.vsa.pr1a.bonus.CarParkFloorEmbeddedIdTest" time="0.236">
+    <failure type="org.opentest4j.AssertionFailedError:">org.opentest4j.AssertionFailedError: 
+	at sk.stuba.fei.uim.vsa.pr1a.bonus.CarParkFloorEmbeddedIdTest.BONUSE02_deleteCarParkFloorEmbeddedTest(CarParkFloorEmbeddedIdTest.java:205)
+</failure>
+    <system-out><![CDATA[[EL Fine]: sql: 2022-05-22 01:43:10.342--ClientSession(764826684)--Connection(273077527)--INSERT INTO CAR_PARK (ID, ADDRESS, NAME, PRICEPERHOUR) VALUES (?, ?, ?, ?)
+	bind => [4, testtest, FLOOR-DELETE, 12]
+[EL Fine]: sql: 2022-05-22 01:43:10.348--ClientSession(215078753)--Connection(273077527)--INSERT INTO CAR_PARK_FLOOR (ID, CARPARK_ID, FLOORIDENTIFIER) VALUES (?, ?, ?)
+	bind => [5, 4, Floor1]
+[EL Fine]: sql: 2022-05-22 01:43:10.356--ServerSession(333392524)--Connection(273077527)--SELECT * from CAR_PARK_FLOOR where FLOORIDENTIFIER = 'Floor1' AND CARPARK_ID = '4'
+[EL Fine]: sql: 2022-05-22 01:43:10.362--ServerSession(333392524)--Connection(273077527)--SELECT * from CAR_PARK_FLOOR where CARPARK_ID = '4'
+[EL Fine]: sql: 2022-05-22 01:43:10.362--ServerSession(333392524)--Connection(273077527)--SELECT * from CAR_PARK_FLOOR where FLOORIDENTIFIER = 'Floor1' AND CARPARK_ID = '4'
+[EL Fine]: sql: 2022-05-22 01:43:10.364--ServerSession(333392524)--Connection(273077527)--SELECT * from PARKING_SPOT where FLOORIDENTIFIER = 'Floor1' AND CARPARK_ID =  '4'
+[EL Fine]: sql: 2022-05-22 01:43:10.367--ClientSession(46941357)--Connection(273077527)--DELETE FROM CAR_PARK_FLOOR_PARKING_SPOT WHERE (CarParkFloor_ID = ?)
+	bind => [5]
+[EL Fine]: sql: 2022-05-22 01:43:10.368--ClientSession(46941357)--Connection(273077527)--DELETE FROM CAR_PARK_FLOOR WHERE (ID = ?)
+	bind => [5]
+[EL Fine]: sql: 2022-05-22 01:43:10.376--ServerSession(333392524)--Connection(273077527)--SELECT * from CAR_PARK_FLOOR where FLOORIDENTIFIER = 'Floor1' AND CARPARK_ID = 'null'
+[EL Fine]: sql: 2022-05-22 01:43:10.378--ServerSession(333392524)--Connection(273077527)--SELECT * from CAR_PARK_FLOOR where CARPARK_ID = '4'
+]]></system-out>
+  </testcase>
+  <testcase name="BONUSE01_createAndGetCarParkFloorTestEmbedded" classname="sk.stuba.fei.uim.vsa.pr1a.bonus.CarParkFloorEmbeddedIdTest" time="0.209">
+    <failure message="expected: not &lt;null&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: not <null>
+	at sk.stuba.fei.uim.vsa.pr1a.bonus.CarParkFloorEmbeddedIdTest.BONUSE01_createAndGetCarParkFloorTestEmbedded(CarParkFloorEmbeddedIdTest.java:96)
+]]></failure>
+    <system-out><![CDATA[[EL Fine]: sql: 2022-05-22 01:43:10.57--ClientSession(61073295)--Connection(273077527)--INSERT INTO CAR_PARK (ID, ADDRESS, NAME, PRICEPERHOUR) VALUES (?, ?, ?, ?)
+	bind => [6, testtest, test4, 12]
+[EL Fine]: sql: 2022-05-22 01:43:10.576--ClientSession(207471778)--Connection(273077527)--INSERT INTO CAR_PARK_FLOOR (ID, CARPARK_ID, FLOORIDENTIFIER) VALUES (?, ?, ?)
+	bind => [7, 6, Floor1]
+[EL Fine]: sql: 2022-05-22 01:43:10.581--ServerSession(333392524)--Connection(273077527)--SELECT * from CAR_PARK_FLOOR where FLOORIDENTIFIER = 'Floor1' AND CARPARK_ID = '6'
+[EL Fine]: sql: 2022-05-22 01:43:10.583--ClientSession(926859124)--Connection(273077527)--INSERT INTO CAR_PARK_FLOOR (ID, CARPARK_ID, FLOORIDENTIFIER) VALUES (?, ?, ?)
+	bind => [8, 6, Floor2]
+[EL Fine]: sql: 2022-05-22 01:43:10.587--ServerSession(333392524)--Connection(273077527)--SELECT * from CAR_PARK_FLOOR where FLOORIDENTIFIER = 'Floor2' AND CARPARK_ID = '6'
+]]></system-out>
+  </testcase>
+</testsuite>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="sk.stuba.fei.uim.vsa.pr1a.bonus.EntityUpdateTest" time="1.176" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1250"/>
+    <property name="java.class.path" value="C:\Users\mlado\Documents\Projects\School\VSA\LS 21-22\opravovanie\zadanie1\skupiny\skupinaA\Boris-Kamenicky\target\test-classes;C:\Users\mlado\Documents\Projects\School\VSA\LS 21-22\opravovanie\zadanie1\skupiny\skupinaA\Boris-Kamenicky\target\classes;C:\Users\mlado\.m2\repository\mysql\mysql-connector-java\5.1.49\mysql-connector-java-5.1.49.jar;C:\Users\mlado\.m2\repository\org\apache\derby\derbyclient\10.14.2.0\derbyclient-10.14.2.0.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.core\2.7.10\org.eclipse.persistence.core-2.7.10.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.asm\9.2.0\org.eclipse.persistence.asm-9.2.0.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.antlr\2.7.10\org.eclipse.persistence.antlr-2.7.10.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.moxy\2.7.10\org.eclipse.persistence.moxy-2.7.10.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.jpa\2.7.10\org.eclipse.persistence.jpa-2.7.10.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\jakarta.persistence\2.2.3\jakarta.persistence-2.2.3.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.jpa.jpql\2.7.10\org.eclipse.persistence.jpa.jpql-2.7.10.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.jpa.modelgen.processor\2.7.10\org.eclipse.persistence.jpa.modelgen.processor-2.7.10.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\javax.persistence\2.2.1\javax.persistence-2.2.1.jar;C:\Users\mlado\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\mlado\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\mlado\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\mlado\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\mlado\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\mlado\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\mlado\.m2\repository\org\reflections\reflections\0.10.2\reflections-0.10.2.jar;C:\Users\mlado\.m2\repository\org\javassist\javassist\3.28.0-GA\javassist-3.28.0-GA.jar;C:\Users\mlado\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\mlado\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Prague"/>
+    <property name="user.country.format" value="SK"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\mlado\AppData\Local\Temp\surefire3799501242644481258\surefirebooter8500945986628447341.jar C:\Users\mlado\AppData\Local\Temp\surefire3799501242644481258 2022-05-22T01-43-05_049-jvmRun1 surefire4643295029884126121tmp surefire_03143203440267686569tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\mlado\Documents\Projects\School\VSA\LS 21-22\opravovanie\zadanie1\skupiny\skupinaA\Boris-Kamenicky\target\test-classes;C:\Users\mlado\Documents\Projects\School\VSA\LS 21-22\opravovanie\zadanie1\skupiny\skupinaA\Boris-Kamenicky\target\classes;C:\Users\mlado\.m2\repository\mysql\mysql-connector-java\5.1.49\mysql-connector-java-5.1.49.jar;C:\Users\mlado\.m2\repository\org\apache\derby\derbyclient\10.14.2.0\derbyclient-10.14.2.0.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.core\2.7.10\org.eclipse.persistence.core-2.7.10.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.asm\9.2.0\org.eclipse.persistence.asm-9.2.0.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.antlr\2.7.10\org.eclipse.persistence.antlr-2.7.10.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.moxy\2.7.10\org.eclipse.persistence.moxy-2.7.10.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.jpa\2.7.10\org.eclipse.persistence.jpa-2.7.10.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\jakarta.persistence\2.2.3\jakarta.persistence-2.2.3.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.jpa.jpql\2.7.10\org.eclipse.persistence.jpa.jpql-2.7.10.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\org.eclipse.persistence.jpa.modelgen.processor\2.7.10\org.eclipse.persistence.jpa.modelgen.processor-2.7.10.jar;C:\Users\mlado\.m2\repository\org\eclipse\persistence\javax.persistence\2.2.1\javax.persistence-2.2.1.jar;C:\Users\mlado\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\mlado\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\mlado\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\mlado\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\mlado\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\mlado\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\mlado\.m2\repository\org\reflections\reflections\0.10.2\reflections-0.10.2.jar;C:\Users\mlado\.m2\repository\org\javassist\javassist\3.28.0-GA\javassist-3.28.0-GA.jar;C:\Users\mlado\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\mlado\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\mlado"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_221\jre"/>
+    <property name="basedir" value="C:\Users\mlado\Documents\Projects\School\VSA\LS 21-22\opravovanie\zadanie1\skupiny\skupinaA\Boris-Kamenicky"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\mlado\AppData\Local\Temp\surefire3799501242644481258\surefirebooter8500945986628447341.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_221\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_221-b11"/>
+    <property name="user.name" value="mlado"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1250"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\mlado\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\mlado\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_221"/>
+    <property name="user.dir" value="C:\Users\mlado\Documents\Projects\School\VSA\LS 21-22\opravovanie\zadanie1\skupiny\skupinaA\Boris-Kamenicky"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="user.language.format" value="sk"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\PROGRA~2\Groovy\GROOVY~1.7\bin;C:\Program Files\MiKTeX\miktex\bin\x64\;C:\Program Files\Java\jdk-11\bin;C:\Program Files\Go\bin;C:\Program Files\Helm;C:\Program Files\Amazon\AWSCLIV2\;C:\Users\mlado\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\213.5744.223\plugins\maven\lib\maven3\bin;C:\Program Files (x86)\AOMEI\AOMEI Backupper\6.8.0;C:\Program Files (x86)\GnuPG\bin;C:\Program Files (x86)\Gpg4win\bin_64;C:\Program Files (x86)\Gpg4win\bin;C:\Users\mlado\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\213.6777.52\plugins\maven\lib\maven3\bin;C:\Program Files\dotnet\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\nodejs\;C:\Program Files (x86)\apache-maven-3.8.5\bin;C:\Users\mlado\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\mlado\AppData\Local\Programs\Python\Python39\;C:\Users\mlado\AppData\Local\Microsoft\WindowsApps;C:\Users\mlado\.deno\bin;C:\Users\mlado\go\bin;C:\Users\mlado\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\GitHub CLI\;C:\Users\mlado\AppData\Local\Microsoft\WindowsApps;C:\Users\mlado\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.221-b11"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="BONUSU03_updateCarParkTest" classname="sk.stuba.fei.uim.vsa.pr1a.bonus.EntityUpdateTest" time="0.23"/>
+  <testcase name="BONUSU01_shouldUpdateCarBrandAndModel" classname="sk.stuba.fei.uim.vsa.pr1a.bonus.EntityUpdateTest" time="0.234"/>
+  <testcase name="BONUSU04_updateParkingSpotWithoutType" classname="sk.stuba.fei.uim.vsa.pr1a.bonus.EntityUpdateTest" time="0.236"/>
+  <testcase name="BONUSU02_shouldCreateAndUpdateUserByChangingEmail" classname="sk.stuba.fei.uim.vsa.pr1a.bonus.EntityUpdateTest" time="0.213"/>
+  <testcase name="BONUSU05_shouldCreateAndUpdateReservation" classname="sk.stuba.fei.uim.vsa.pr1a.bonus.EntityUpdateTest" time="0.251"/>
+</testsuite>

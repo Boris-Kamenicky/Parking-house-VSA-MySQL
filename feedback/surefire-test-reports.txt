@@ -1,0 +1,106 @@
+-------------------------------------------------------------------------------
+Test set: sk.stuba.fei.uim.vsa.pr1a.groupa.CouponTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 7.885 s <<< FAILURE! - in sk.stuba.fei.uim.vsa.pr1a.groupa.CouponTest
+COUPON04_createAndGetCouponsByUser  Time elapsed: 0.303 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at sk.stuba.fei.uim.vsa.pr1a.groupa.CouponTest.COUPON04_createAndGetCouponsByUser(CouponTest.java:79)
+
+-------------------------------------------------------------------------------
+ 
+-------------------------------------------------------------------------------
+Test set: sk.stuba.fei.uim.vsa.pr1a.tests.CarParkFloorTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.686 s <<< FAILURE! - in sk.stuba.fei.uim.vsa.pr1a.tests.CarParkFloorTest
+FLOOR03_createAndDeleteCarParkFloor  Time elapsed: 0.224 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: not <null>
+	at sk.stuba.fei.uim.vsa.pr1a.tests.CarParkFloorTest.FLOOR03_createAndDeleteCarParkFloor(CarParkFloorTest.java:100)
+
+FLOOR02_createAndGetAllCarParks  Time elapsed: 0.211 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <2> but was: <1>
+	at sk.stuba.fei.uim.vsa.pr1a.tests.CarParkFloorTest.FLOOR02_createAndGetAllCarParks(CarParkFloorTest.java:68)
+
+-------------------------------------------------------------------------------
+ 
+-------------------------------------------------------------------------------
+Test set: sk.stuba.fei.uim.vsa.pr1a.tests.CarParkTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.044 s <<< FAILURE! - in sk.stuba.fei.uim.vsa.pr1a.tests.CarParkTest
+PARK04_getCarParksTest  Time elapsed: 0.2 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <2> but was: <1>
+	at sk.stuba.fei.uim.vsa.pr1a.tests.CarParkTest.PARK04_getCarParksTest(CarParkTest.java:118)
+
+-------------------------------------------------------------------------------
+ 
+-------------------------------------------------------------------------------
+Test set: sk.stuba.fei.uim.vsa.pr1a.tests.CarTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.059 s <<< FAILURE! - in sk.stuba.fei.uim.vsa.pr1a.tests.CarTest
+CAR04_shouldGetCarsByUser  Time elapsed: 0.198 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <sk.stuba.fei.uim.vsa.pr1a.entities.Car> but was: <java.util.Vector>
+	at sk.stuba.fei.uim.vsa.pr1a.tests.CarTest.CAR04_shouldGetCarsByUser(CarTest.java:82)
+
+-------------------------------------------------------------------------------
+ 
+-------------------------------------------------------------------------------
+Test set: sk.stuba.fei.uim.vsa.pr1a.tests.ParkingSpotAndReservationWithoutTypeTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.545 s <<< FAILURE! - in sk.stuba.fei.uim.vsa.pr1a.tests.ParkingSpotAndReservationWithoutTypeTest
+SPOT_RES_01_getAvailableSpotsTest  Time elapsed: 0.248 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <1> but was: <2>
+	at sk.stuba.fei.uim.vsa.pr1a.tests.ParkingSpotAndReservationWithoutTypeTest.SPOT_RES_01_getAvailableSpotsTest(ParkingSpotAndReservationWithoutTypeTest.java:78)
+
+SPOT_RES_02_getOccupiedParkingSpotsWithoutTypeTest  Time elapsed: 0.271 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+	at sk.stuba.fei.uim.vsa.pr1a.tests.ParkingSpotAndReservationWithoutTypeTest.SPOT_RES_02_getOccupiedParkingSpotsWithoutTypeTest(ParkingSpotAndReservationWithoutTypeTest.java:329)
+
+-------------------------------------------------------------------------------
+ 
+-------------------------------------------------------------------------------
+Test set: sk.stuba.fei.uim.vsa.pr1a.tests.ParkingSpotTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 3, Errors: 1, Skipped: 0, Time elapsed: 1.361 s <<< FAILURE! - in sk.stuba.fei.uim.vsa.pr1a.tests.ParkingSpotTest
+SPOT06_uniqueNameForParkingSpotWithoutType  Time elapsed: 0.222 s  <<< ERROR!
+java.lang.IllegalStateException: 
+
+Exception Description: No transaction is currently active
+	at sk.stuba.fei.uim.vsa.pr1a.tests.ParkingSpotTest.SPOT06_uniqueNameForParkingSpotWithoutType(ParkingSpotTest.java:337)
+
+SPOT07_getAllParkingSpotForFloorWithoutType  Time elapsed: 0.219 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <2> but was: <1>
+	at sk.stuba.fei.uim.vsa.pr1a.tests.ParkingSpotTest.SPOT07_getAllParkingSpotForFloorWithoutType(ParkingSpotTest.java:388)
+
+SPOT03_getAllParkingSpotsForCarParkWithoutType  Time elapsed: 0.244 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <2> but was: <1>
+	at sk.stuba.fei.uim.vsa.pr1a.tests.ParkingSpotTest.SPOT03_getAllParkingSpotsForCarParkWithoutType(ParkingSpotTest.java:206)
+
+SPOT01_getAllParkingSlotsWithoutType  Time elapsed: 0.235 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <2> but was: <1>
+	at sk.stuba.fei.uim.vsa.pr1a.tests.ParkingSpotTest.SPOT01_getAllParkingSlotsWithoutType(ParkingSpotTest.java:86)
+
+-------------------------------------------------------------------------------
+ 
+-------------------------------------------------------------------------------
+Test set: sk.stuba.fei.uim.vsa.pr1a.tests.ReservationTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 4.075 s <<< FAILURE! - in sk.stuba.fei.uim.vsa.pr1a.tests.ReservationTest
+RES03_shouldCreateAndGetReservations  Time elapsed: 0.265 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <85> but was: <null>
+	at sk.stuba.fei.uim.vsa.pr1a.tests.ReservationTest.RES03_shouldCreateAndGetReservations(ReservationTest.java:197)
+
+RES04_shouldCreateAndGetReservationByUser  Time elapsed: 0.264 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <91> but was: <null>
+	at sk.stuba.fei.uim.vsa.pr1a.tests.ReservationTest.RES04_shouldCreateAndGetReservationByUser(ReservationTest.java:225)
+
+-------------------------------------------------------------------------------
+ 
+-------------------------------------------------------------------------------
+Test set: sk.stuba.fei.uim.vsa.pr1a.tests.UserTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.128 s <<< FAILURE! - in sk.stuba.fei.uim.vsa.pr1a.tests.UserTest
+USER04_shouldCreateAndGetAllUsers  Time elapsed: 0.215 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <sk.stuba.fei.uim.vsa.pr1a.entities.User> but was: <java.util.Vector>
+	at sk.stuba.fei.uim.vsa.pr1a.tests.UserTest.USER04_shouldCreateAndGetAllUsers(UserTest.java:63)
+
+-------------------------------------------------------------------------------
+ 
